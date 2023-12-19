@@ -16,12 +16,22 @@
         color:blue;
         background-color: wheat;
       }
-     #para{
+     #para:before{
       padding: 10px 10px 10px 10px;
-      list-style-type: circle;
+     
+      content: "👍";
+
+     }
+     #para{
+       list-style-type: none;
+       padding: 20px;
+     }
+      #para::selection{
+       
+        background-color: aqua;
      }
      .home{
-      margin-left: 50px;
+    
       text-align: center;
       text-transform: uppercase;
       
@@ -39,6 +49,9 @@
     <h1 id="name" >Professional Summary</h1>
     <li id="para">Having 5 years of experience in developing Single page Web Applications Using  <span id="ang">Angular 13</span>, HTMl5 ,CSS3 ,Bootstrap5,JavaScript</li>
     <li id="para">Experience on working with version control system-GIT and GitHub</li>
+    <li id="para">Experience woring with JIRA for user stories and bug tracking</li>
+    <li id="para">Experience woring with JIRA for user stories and bug tracking</li>
+    <li id="para">Experience woring with JIRA for user stories and bug tracking</li>
     <li id="para">Experience woring with JIRA for user stories and bug tracking</li>
     
 </body>
